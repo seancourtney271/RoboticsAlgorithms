@@ -1,4 +1,4 @@
-prefix=/home/fall/Desktop/Robotics_Algorithms/devel
+prefix=/home/fall/RoboticsAlgorithms/devel
 
 Name: lab0
 Description: Description of lab0

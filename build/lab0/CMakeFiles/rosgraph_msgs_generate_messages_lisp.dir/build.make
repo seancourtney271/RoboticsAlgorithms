@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fall/Desktop/Robotics_Algorithms/src
+CMAKE_SOURCE_DIR = /home/fall/RoboticsAlgorithms/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fall/Desktop/Robotics_Algorithms/build
+CMAKE_BINARY_DIR = /home/fall/RoboticsAlgorithms/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_msgs_ge
 .PHONY : lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/fall/Desktop/Robotics_Algorithms/build/lab0 && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/fall/RoboticsAlgorithms/build/lab0 && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/fall/Desktop/Robotics_Algorithms/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fall/Desktop/Robotics_Algorithms/src /home/fall/Desktop/Robotics_Algorithms/src/lab0 /home/fall/Desktop/Robotics_Algorithms/build /home/fall/Desktop/Robotics_Algorithms/build/lab0 /home/fall/Desktop/Robotics_Algorithms/build/lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fall/RoboticsAlgorithms/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fall/RoboticsAlgorithms/src /home/fall/RoboticsAlgorithms/src/lab0 /home/fall/RoboticsAlgorithms/build /home/fall/RoboticsAlgorithms/build/lab0 /home/fall/RoboticsAlgorithms/build/lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab0/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

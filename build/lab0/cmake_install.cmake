@@ -1,8 +1,8 @@
-# Install script for directory: /home/fall/Desktop/Robotics_Algorithms/src/lab0
+# Install script for directory: /home/fall/RoboticsAlgorithms/src/lab0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fall/Desktop/Robotics_Algorithms/install")
+  set(CMAKE_INSTALL_PREFIX "/home/fall/RoboticsAlgorithms/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fall/Desktop/Robotics_Algorithms/build/lab0/catkin_generated/installspace/lab0.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fall/RoboticsAlgorithms/build/lab0/catkin_generated/installspace/lab0.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab0/cmake" TYPE FILE FILES
-    "/home/fall/Desktop/Robotics_Algorithms/build/lab0/catkin_generated/installspace/lab0Config.cmake"
-    "/home/fall/Desktop/Robotics_Algorithms/build/lab0/catkin_generated/installspace/lab0Config-version.cmake"
+    "/home/fall/RoboticsAlgorithms/build/lab0/catkin_generated/installspace/lab0Config.cmake"
+    "/home/fall/RoboticsAlgorithms/build/lab0/catkin_generated/installspace/lab0Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab0" TYPE FILE FILES "/home/fall/Desktop/Robotics_Algorithms/src/lab0/package.xml")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/lab0" TYPE PROGRAM FILES "/home/fall/Desktop/Robotics_Algorithms/build/lab0/catkin_generated/installspace/talker.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/lab0" TYPE PROGRAM FILES "/home/fall/Desktop/Robotics_Algorithms/build/lab0/catkin_generated/installspace/listener.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab0" TYPE FILE FILES "/home/fall/RoboticsAlgorithms/src/lab0/package.xml")
 endif()
 

@@ -1,4 +1,4 @@
-prefix=/home/fall/Desktop/Robotics_Algorithms/install
+prefix=/home/fall/RoboticsAlgorithms/install
 
 Name: lab1
 Description: Description of lab1

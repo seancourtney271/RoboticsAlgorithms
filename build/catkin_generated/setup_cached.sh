@@ -7,4 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/fall/Desktop/Robotics_Algorithms/build'
+export CMAKE_PREFIX_PATH="/home/fall/RoboticsAlgorithms/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/fall/RoboticsAlgorithms/devel/lib:$LD_LIBRARY_PATH"
+export PWD='/home/fall/RoboticsAlgorithms/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/fall/RoboticsAlgorithms/devel/share/common-lisp'
+export ROS_PACKAGE_PATH='/home/fall/RoboticsAlgorithms/src:/opt/ros/melodic/share'

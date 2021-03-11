@@ -67,14 +67,14 @@ set(lab1_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(lab1_SOURCE_PREFIX /home/fall/Desktop/Robotics_Algorithms/src/lab1)
-  set(lab1_DEVEL_PREFIX /home/fall/Desktop/Robotics_Algorithms/devel)
+  set(lab1_SOURCE_PREFIX /home/fall/RoboticsAlgorithms/src/lab1)
+  set(lab1_DEVEL_PREFIX /home/fall/RoboticsAlgorithms/devel)
   set(lab1_INSTALL_PREFIX "")
   set(lab1_PREFIX ${lab1_DEVEL_PREFIX})
 else()
   set(lab1_SOURCE_PREFIX "")
   set(lab1_DEVEL_PREFIX "")
-  set(lab1_INSTALL_PREFIX /home/fall/Desktop/Robotics_Algorithms/install)
+  set(lab1_INSTALL_PREFIX /home/fall/RoboticsAlgorithms/install)
   set(lab1_PREFIX ${lab1_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/fall/Desktop/Robotics_Algorithms/install/lib;/home/fall/Desktop/Robotics_Algorithms/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/fall/RoboticsAlgorithms/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
