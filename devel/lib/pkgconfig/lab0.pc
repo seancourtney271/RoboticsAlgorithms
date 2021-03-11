@@ -1,0 +1,8 @@
+prefix=/home/fall/Desktop/Robotics_Algorithms/devel
+
+Name: lab0
+Description: Description of lab0
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
