@@ -131,9 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/fall/RoboticsAlgorithms/build/gtest/cmake_install.cmake")
+  include("/home/fall/RoboticsAlgorithms/build/lab3/cmake_install.cmake")
   include("/home/fall/RoboticsAlgorithms/build/lab0/cmake_install.cmake")
   include("/home/fall/RoboticsAlgorithms/build/lab1/cmake_install.cmake")
   include("/home/fall/RoboticsAlgorithms/build/lab2/cmake_install.cmake")
+  include("/home/fall/RoboticsAlgorithms/build/lab4/cmake_install.cmake")
 
 endif()
 

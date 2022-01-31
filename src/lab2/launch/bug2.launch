@@ -1,5 +1,5 @@
 <launch>
     <node name="stage" pkg="stage_ros" type="stageros"
 	      args="$(find lab2)/world/playground.world" />
-	<node name="bug" pkg="lab2" type="bot.py" output="screen"/>
+	<node name="bug" pkg="lab2" type="bug2.py" output="screen"/>
 </launch>

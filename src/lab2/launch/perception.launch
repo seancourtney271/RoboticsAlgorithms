@@ -1,0 +1,5 @@
+<launch>
+    <node name="stage" pkg="stage_ros" type="stageros"
+	      args="$(find lab2)/world/playground.world" />
+	<node name="bug" pkg="lab2" type="perception.py" output="screen"/>
+</launch>

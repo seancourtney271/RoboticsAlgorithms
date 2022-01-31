@@ -1,0 +1,3 @@
+<launch>
+	<node name="bug" pkg="lab3" type="main.py" output="screen"/>
+</launch>
